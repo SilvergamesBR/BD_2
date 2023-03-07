@@ -2,6 +2,8 @@ import Database
 import json
 import os
 from bson import json_util
+def getPokemonByDex(number: int):
+    return db.collection.find({"id": number})
 
 def writeAJson(data, name: str):
     parsed_json = json.loads(json_util.dumps(data))
@@ -18,8 +20,6 @@ def writeAJson(data, name: str):
 db = Database.Database(database="Exercicios_BD2", collection="Pokedex")
 db.resetDatabase()
 
-def getPokemonByDex(number: int):
-    return db.collection.find({"id": number})
 
 
 bulbasaur = getPokemonByDex(1)
