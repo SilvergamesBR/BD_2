@@ -1,4 +1,4 @@
-import Database
+import database
 import json
 import os
 from bson import json_util
@@ -17,7 +17,7 @@ def writeAJson(data, name: str):
                   separators=(',', ': '))
 
 
-db = Database.Database(database="Exercicios_BD2", collection="Pokedex")
+db = database.Database(database="Exercicios_BD2", collection="Pokedex")
 db.resetDatabase()
 
 
