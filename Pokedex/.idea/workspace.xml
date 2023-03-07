@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1162523-4ad1-47b7-9a86-302f0ea0891f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/Charizard.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/Charizard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/DragonType.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/DragonType.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/FlyingAndDragon.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/FlyingAndDragon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/LessThan50Atk.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/LessThan50Atk.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/bulbasaur.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/bulbasaur.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -25,12 +28,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lucas\OneDrive\Documents\BD2\BD_2\Pokedex" />

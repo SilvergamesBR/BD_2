@@ -51,3 +51,6 @@ writeAJson(flyingNdragon,"FlyingAndDragon")
 
 lte50attack = getPokemonByAttribute(50,"Attack","lte")
 writeAJson(lte50attack,"LessThan50Atk")
+
+gte110speed = getPokemonByAttribute(110,"Speed","gte")
+writeAJson(gte110speed,"MoreThan110Spd")
