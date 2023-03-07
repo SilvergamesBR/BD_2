@@ -1,0 +1,98 @@
+[
+    {
+        "_id": {
+            "$oid": "6407cb4ee34e61e977f258f6"
+        },
+        "id": 149,
+        "name": {
+            "english": "Dragonite",
+            "japanese": "\u30ab\u30a4\u30ea\u30e5\u30fc",
+            "chinese": "\u5feb\u9f99",
+            "french": "Dracolosse"
+        },
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "base": {
+            "HP": 91,
+            "Attack": 134,
+            "Defense": 95,
+            "Sp. Attack": 100,
+            "Sp. Defense": 100,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6407cb4ee34e61e977f259af"
+        },
+        "id": 334,
+        "name": {
+            "english": "Altaria",
+            "japanese": "\u30c1\u30eb\u30bf\u30ea\u30b9",
+            "chinese": "\u4e03\u5915\u9752\u9e1f",
+            "french": "Altaria"
+        },
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 70,
+            "Defense": 90,
+            "Sp. Attack": 70,
+            "Sp. Defense": 105,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6407cb4ee34e61e977f259d6"
+        },
+        "id": 373,
+        "name": {
+            "english": "Salamence",
+            "japanese": "\u30dc\u30fc\u30de\u30f3\u30c0",
+            "chinese": "\u66b4\u98de\u9f99",
+            "french": "Drattak"
+        },
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 135,
+            "Defense": 80,
+            "Sp. Attack": 110,
+            "Sp. Defense": 80,
+            "Speed": 100
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6407cb4ee34e61e977f259e1"
+        },
+        "id": 384,
+        "name": {
+            "english": "Rayquaza",
+            "japanese": "\u30ec\u30c3\u30af\u30a6\u30b6",
+            "chinese": "\u70c8\u7a7a\u5750",
+            "french": "Rayquaza"
+        },
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "base": {
+            "HP": 105,
+            "Attack": 150,
+            "Defense": 90,
+            "Sp. Attack": 150,
+            "Sp. Defense": 90,
+            "Speed": 95
+        }
+    }
+]
