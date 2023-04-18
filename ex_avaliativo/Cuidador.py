@@ -4,3 +4,5 @@ class Cuidador:
         self.nome = nome
         self.documento = documento
 
+    def __str__(self):
+        return self.nome

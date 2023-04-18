@@ -5,7 +5,6 @@ import Animal as anim
 class ZoologicoDAO:
     def __init__(self):
         self.db = database.Database(database="Ex_avaliativo", collection="Animais")
-        self.db.resetDatabase()
         self.collection = self.db.collection
 
     def createAnimal(self,animal:anim.Animal):
