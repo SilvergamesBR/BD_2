@@ -1,114 +1,74 @@
 {
+  $jsonSchema: {
+    bsonType: "object",
 
-  $jsonSchema: {
+    required: [
+      "_id",
 
-    bsonType: 'object',
+      "nome",
 
-    required: [
+      "especie",
 
-      '_id',
+      "idade",
 
-      'nome',
+      "habitat",
+    ],
 
-      'especie',
+    properties: {
+      _id: {
+        bsonType: "objectId",
+      },
 
-      'idade',
+      nome: {
+        bsonType: "string",
+      },
 
-      'habitat'
+      especie: {
+        bsonType: "string",
+      },
 
-    ],
+      idade: {
+        bsonType: "int",
 
-    properties: {
+        minimum: 0,
+      },
 
-      _id: {
+      habitat: {
+        bsonType: "object",
 
-        bsonType: 'objectId',
-        
+        required: [
+          "nome",
 
-      },
+          "tipoAmbiente",
 
-      nome: {
+          "cuidador",
+        ],
 
-        bsonType: 'string',
+        properties: {
+          nome: {
+            bsonType: "string",
+          },
+          tipoAmbiente: {
+            bsonType: "string",
+          },
 
-      },
+          cuidador: {
+            bsonType: "object",
 
-      especie: {
+            required: ["nome", "documento"],
 
-        bsonType: 'string',
-
-      },
-
-      idade: {
-
-        bsonType: 'int',
-
-        minimum: 0,
-
-      },
-
-      habitat: {
-
-        bsonType: 'object',
-
-        required: [
-
-        'nome',
-
-        'tipoAmbiente',
-
-        'cuidador',
-
-        ],
-
-        properties: {
-
-        nome: {
-
-          bsonType: 'string',
-        
-
-        }
-        
-        tipoAmbiente: {
-          bsonType: 'string',
-          
-        }
-        
-        cuidador:{
-          
-          bsonType :'object'
-          
-          required: [
-
-          'nome',
-
-          'documento',
-
-
-          ],
-
-          properties: {
-
-          nome: {
-
-            bsonType: 'string',
-          }
-        
-          documento: {
-          
-            bsonType: 'string',
-          
-          }
-          
-          
-        }
-      }
-
-    }
-
-  }
-
+            properties: {
+              nome: {
+                bsonType: "string",
+              },
+              documento: {
+                bsonType: "string",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }
-
 
