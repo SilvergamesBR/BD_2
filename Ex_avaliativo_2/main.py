@@ -4,9 +4,20 @@ import queries
 db = database.Database("bolt://52.205.239.52:7687","neo4j","halves-benefits-desertion")
 buscas = queries.CRUD(db)
 
-print(buscas.quem_e_estudante())
+opt = int(input("1 para buscar por labels, 2 para ver se duas pessoas sao irmas e\n3 para ver as pessoas com idade maior do que um numero\n"))
 
-print(buscas.e_irmao("Lucas","Elson"))
-print(buscas.e_irmao("Lucas","Vanusa"))
+while opt<1 or opt>3:
+    opt = int(input("Por favor digite 1, 2 ou 3: "))
 
-print(buscas.idade_maior(20))
+while opt>=1 and opt<=3:
+    if opt == 1:
+        label = input("Coloque a label por qual vc esta procurando: ")
+        print(buscas.por_label(label))
+    elif opt == 2:
+        nome1 = input("Coloque o nome da primeira pessoa: ")
+        nome2 = input("Coloque o nome da segunda pessoa: ")
+        print(buscas.e_irmao(nome1,nome2))
+    elif opt == 3:
+        idade = int(input("Coloque a idade limite: "))
+        print(buscas.idade_maior(idade))
+    opt = int(input("coloque um numero diferente de 1, 2 ou 3 para parar, 1, 2 e 3 funcionam normalmente: "))
