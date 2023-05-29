@@ -1,10 +1,10 @@
 import database
 import queries
 
-db = database.Database("bolt://52.205.239.52:7687","neo4j","halves-benefits-desertion")
+db = database.Database("bolt://3.83.179.171:7687","neo4j","stone-ages-peaks")
 buscas = queries.CRUD(db)
 
-opt = int(input("1 para buscar por labels, 2 para ver se duas pessoas sao irmas e\n3 para ver as pessoas com idade maior do que um numero\n"))
+opt = int(input("1 para buscar por labels, 2 para ver se duas pessoas sao irmas e\n3 para ver as pessoas com idade maior do que a indicada\n"))
 
 while opt<1 or opt>3:
     opt = int(input("Por favor digite 1, 2 ou 3: "))

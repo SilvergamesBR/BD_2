@@ -4,7 +4,7 @@ class CRUD:
     def __init__(self, database:database.Database):
         self.db = database
 
-    def por_label(self,label)#realiza um busca por todos os nos que contem uma label, no caso desse bc no geal as labelçs sao profissoes
+    def por_label(self,label):#realiza um busca por todos os nos que contem uma label, no caso desse bc no geal as labelçs sao profissoes
         query = "match (n:"+label+") return n.nome"#o metodo pelos parameters tava dando erro, fiz na forca brutra mesmo
         return self.db.execute_query(query)
 
